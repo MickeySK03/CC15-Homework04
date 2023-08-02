@@ -3,7 +3,7 @@ body, html {
    margin: 0;
 }
 
-.img {
+.contain {
    background-image: url('https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80');
    height: 100%;
    background-position: center;
@@ -11,14 +11,14 @@ body, html {
    position: relative;
    color: white;
    font-family: "Courier New", Courier, monospace;
-   font-size: 20px;
+   font-size: 30px;
 }
 
 .top {
    position: absolute;
-   top: 0;
+   margin-top: 20px;
    right: 16px;
-   
+   margin-right: 70px;
 }
 
 .bottom {
@@ -40,11 +40,14 @@ body, html {
 
 hr {
    margin: auto;
-   width: 40%;
+   width: 90vi;
 }
 nav a {
    text-decoration: none;
    color: azure;
+   
+   font-size: 30px;
+
 }
 .Progress {
      width: 100%;
@@ -70,4 +73,23 @@ button {
     padding: 5px 10px;
     box-shadow: 1px 2px 8px;
 
+}
+.icon {
+   /* position: absolute; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   margin: 10px;
+   
+}
+.icon a {
+   margin: 10px;
+   padding: 10px;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   background-color: aliceblue;
+   border: solid black;  
+   border-radius: 50%;
 }
